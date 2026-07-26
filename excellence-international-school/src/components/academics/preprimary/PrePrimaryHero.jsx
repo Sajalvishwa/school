@@ -1,4 +1,4 @@
-import "./PrePrimaryHero.css";
+import "./PreprimaryHero.css";
 
 import heroImage from "../../../assets/images/Best-Pre-Primary-School-in-Aligarh.png.webp";
 
