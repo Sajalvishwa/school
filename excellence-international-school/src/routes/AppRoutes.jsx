@@ -10,14 +10,14 @@ import ScrollToTop from "../components/common/ScrollToTop";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Academics from "../pages/Academics";
-import Admission from "../pages/Admissions"
+import Admission from "../pages/Admissions";
 import Gallery from "../pages/Gallery";
 import Blog from "../pages/Blog";
 
 import Contact from "../pages/Contact";
 import PrePrimary from "../pages/PrePrimary";
 import Primary from "../pages/Primary";
-import Middle from "../pages/Middleschool"
+import Middle from "../pages/MiddleSchool"
 
 
 
@@ -60,7 +60,7 @@ const AppRoutes = () => {
             element={<Middle />}
           />
 
-          <Route path="/contact" element={<Contact />} />
+          <Route path="contact" element={<Contact />} />
 
         </Route>
 
