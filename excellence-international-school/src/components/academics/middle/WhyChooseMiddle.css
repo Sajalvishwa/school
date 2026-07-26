@@ -1,0 +1,321 @@
+/* ===================================
+   Why Choose Middle School
+=================================== */
+
+.whyMiddle{
+
+    padding:100px 0;
+
+    background:linear-gradient(
+        180deg,
+        #f8fbff,
+        #ffffff
+    );
+
+}
+
+
+
+.section-header{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+}
+
+
+
+.section-header span{
+
+    display:inline-block;
+
+    padding:10px 24px;
+
+    border-radius:50px;
+
+    background:#dbeafe;
+
+    color:#2563eb;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.section-header h2{
+
+    font-size:46px;
+
+    color:#1e293b;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.section-header p{
+
+    color:#64748b;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+
+
+
+/* Grid */
+
+.middle-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+
+
+/* Card */
+
+.middle-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    border-radius:25px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    border:1px solid #e5e7eb;
+
+    transition:.4s;
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,.06);
+
+}
+
+
+
+.middle-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(
+
+        90deg,
+
+        #2563eb,
+
+        #60a5fa
+
+    );
+
+}
+
+
+
+.middle-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+
+    0 25px 55px rgba(37,99,235,.18);
+
+}
+
+
+
+
+
+/* Icon */
+
+.middle-card .icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:0 auto 25px;
+
+    border-radius:22px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:36px;
+
+    color:#2563eb;
+
+    background:
+
+    linear-gradient(
+
+        135deg,
+
+        #eff6ff,
+
+        #dbeafe
+
+    );
+
+    transition:.4s;
+
+    box-shadow:
+
+    0 12px 30px rgba(37,99,235,.15);
+
+}
+
+
+
+.middle-card:hover .icon{
+
+    transform:
+
+    rotate(-8deg)
+
+    scale(1.12);
+
+    background:
+
+    linear-gradient(
+
+        135deg,
+
+        #2563eb,
+
+        #60a5fa
+
+    );
+
+    color:#fff;
+
+}
+
+
+
+
+
+.middle-card h3{
+
+    font-size:24px;
+
+    color:#1e293b;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+
+
+.middle-card p{
+
+    color:#64748b;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+
+
+
+
+@media(max-width:992px){
+
+.middle-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+
+
+@media(max-width:768px){
+
+.whyMiddle{
+
+padding:70px 0;
+
+}
+
+
+
+.section-header h2{
+
+font-size:34px;
+
+}
+
+
+
+.middle-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+.middle-card{
+
+padding:35px 25px;
+
+}
+
+
+
+.middle-card .icon{
+
+width:80px;
+
+height:80px;
+
+font-size:30px;
+
+}
+
+}

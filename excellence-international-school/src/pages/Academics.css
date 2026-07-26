@@ -1,0 +1,211 @@
+/* ===================================
+   Academics
+=================================== */
+
+.academics{
+
+padding:140px 0 90px;
+
+background:linear-gradient(
+135deg,
+#fffdf5,
+#fff8e7
+);
+
+}
+
+/* Heading */
+
+.academics-heading{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-badge{
+
+display:inline-block;
+
+padding:10px 22px;
+
+background:#fff;
+
+color:#2f855a;
+
+border-radius:50px;
+
+font-weight:600;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+margin-bottom:20px;
+
+}
+
+.academics-heading h1{
+
+font-size:56px;
+
+color:#1e293b;
+
+margin-bottom:20px;
+
+font-weight:800;
+
+}
+
+.academics-heading p{
+
+max-width:800px;
+
+margin:auto;
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#64748b;
+
+}
+
+/* Grid */
+
+.academics-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:35px;
+
+}
+
+/* Card */
+
+.academic-card{
+
+background:#fff;
+
+border-radius:24px;
+
+overflow:hidden;
+
+box-shadow:0 20px 45px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.academic-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.academic-card img{
+
+width:100%;
+
+height:240px;
+
+object-fit:cover;
+
+}
+
+.academic-content{
+
+padding:30px;
+
+}
+
+.academic-content h2{
+
+font-size:28px;
+
+color:#1e293b;
+
+margin-bottom:15px;
+
+}
+
+.academic-content p{
+
+font-size:16px;
+
+line-height:1.8;
+
+color:#64748b;
+
+margin-bottom:25px;
+
+}
+
+.academic-btn{
+
+display:inline-block;
+
+padding:14px 28px;
+
+background:#f6c445;
+
+color:#1e293b;
+
+text-decoration:none;
+
+border-radius:50px;
+
+font-weight:700;
+
+transition:.3s;
+
+}
+
+.academic-btn:hover{
+
+background:#2f855a;
+
+color:#fff;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.academics-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.academics-heading h1{
+
+font-size:42px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.academics{
+
+padding:120px 0 70px;
+
+}
+
+.academics-heading h1{
+
+font-size:34px;
+
+}
+
+.academics-heading p{
+
+font-size:16px;
+
+}
+
+}

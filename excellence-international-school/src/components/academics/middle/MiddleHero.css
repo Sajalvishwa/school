@@ -1,0 +1,37 @@
+@import "../../academics/preprimary/PrePrimaryHero.css";
+
+/* Override Theme */
+
+.preHero{
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+}
+
+.hero-badge{
+  color:#2563eb;
+}
+
+.preHero-left h1 span{
+  color:#2563eb;
+}
+
+.hero-list li::before{
+  background:#2563eb;
+}
+
+.enquiry-card input:focus,
+.enquiry-card select:focus,
+.enquiry-card textarea:focus{
+  border-color:#2563eb;
+}
+
+.shape-one{
+  background:#bfdbfe;
+}
+
+.shape-two{
+  background:#93c5fd;
+}
+
+.shape-three{
+  background:#dbeafe;
+}

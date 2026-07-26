@@ -1,0 +1,305 @@
+/* ===================================
+   About Details
+=================================== */
+
+.aboutDetails{
+
+padding:100px 0;
+
+background:#fffdf5;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+/* ===================================
+   Container
+=================================== */
+
+.aboutDetails .container{
+
+width:90%;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+/* ===================================
+   Intro
+=================================== */
+
+.aboutDetails> .container>h2{
+
+font-size:46px;
+
+color:#1e293b;
+
+text-align:center;
+
+margin-bottom:25px;
+
+font-weight:800;
+
+}
+
+.aboutDetails> .container>p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#64748b;
+
+margin-bottom:25px;
+
+text-align:justify;
+
+}
+
+/* ===================================
+   Cards
+=================================== */
+
+.aboutCard{
+
+background:#fff;
+
+padding:40px;
+
+margin-top:35px;
+
+border-radius:24px;
+
+border:1px solid rgba(47,133,90,.08);
+
+box-shadow:0 20px 45px rgba(0,0,0,.05);
+
+transition:.35s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.aboutCard::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:6px;
+
+height:100%;
+
+background:#f6c445;
+
+}
+
+.aboutCard:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 30px 60px rgba(0,0,0,.1);
+
+}
+
+/* ===================================
+   Titles
+=================================== */
+
+.aboutCard h3{
+
+font-size:30px;
+
+color:#1e293b;
+
+margin-bottom:20px;
+
+font-weight:700;
+
+position:relative;
+
+padding-bottom:12px;
+
+}
+
+.aboutCard h3::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:0;
+
+width:70px;
+
+height:4px;
+
+background:#2f855a;
+
+border-radius:50px;
+
+}
+
+/* ===================================
+   Paragraph
+=================================== */
+
+.aboutCard p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#64748b;
+
+margin-bottom:18px;
+
+}
+
+/* ===================================
+   List
+=================================== */
+
+.aboutCard ul{
+
+padding-left:20px;
+
+margin-top:10px;
+
+}
+
+.aboutCard li{
+
+font-size:17px;
+
+margin-bottom:14px;
+
+color:#475569;
+
+line-height:1.8;
+
+}
+
+.aboutCard li::marker{
+
+color:#2f855a;
+
+}
+
+/* ===================================
+   Last Card
+=================================== */
+
+.aboutCard:last-child{
+
+background:linear-gradient(
+135deg,
+#2f855a,
+#3da36e
+);
+
+color:#fff;
+
+}
+
+.aboutCard:last-child h3{
+
+color:#fff;
+
+}
+
+.aboutCard:last-child h3::after{
+
+background:#f6c445;
+
+}
+
+.aboutCard:last-child p,
+
+.aboutCard:last-child li{
+
+color:#f8fafc;
+
+}
+
+/* ===================================
+   Responsive
+=================================== */
+
+@media(max-width:992px){
+
+.aboutDetails{
+
+padding:80px 0;
+
+}
+
+.aboutDetails> .container>h2{
+
+font-size:38px;
+
+}
+
+.aboutCard{
+
+padding:30px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.aboutDetails{
+
+padding:70px 0;
+
+}
+
+.aboutDetails> .container>h2{
+
+font-size:32px;
+
+}
+
+.aboutDetails> .container>p{
+
+font-size:16px;
+
+}
+
+.aboutCard{
+
+padding:25px;
+
+border-radius:18px;
+
+}
+
+.aboutCard h3{
+
+font-size:24px;
+
+}
+
+.aboutCard p,
+
+.aboutCard li{
+
+font-size:16px;
+
+}
+
+}
